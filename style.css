@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas: "side-menu header"
+                         "side-menu main";
+}
+.header {
+    grid-area: header;
+    background-color: blue;
+}
+.side-menu {
+    grid-area: side-menu;
+    background-color: red;
+}
+.main {
+    grid-area: main;
+    background-color: green;
+}
