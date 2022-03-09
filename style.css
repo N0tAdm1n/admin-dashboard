@@ -38,6 +38,22 @@
 .full-user-name {
     font-size: 1.35rem;
 }
+.notification-user-profile {
+    display: flex;
+    gap: 10px;
+    font-size: 1.1rem;
+}
+.button-container {
+    margin-top: 55px;
+    display: flex;
+    gap: 30px;
+}
+.button-container>button {
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+}
 .side-menu {
   grid-area: side-menu;
   background-color: red;
