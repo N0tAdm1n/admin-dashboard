@@ -18,6 +18,12 @@
 .header {
   grid-area: header;
   background-color: blue;
+
+  display: grid;
+  grid-template-columns: 1fr 550px;
+}
+#search-bar {
+    width: 100%;
 }
 .side-menu {
   grid-area: side-menu;
