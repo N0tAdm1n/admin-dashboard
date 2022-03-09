@@ -18,15 +18,25 @@
 .header {
   grid-area: header;
   background-color: blue;
+  padding: 20px 50px;
 
   display: grid;
-  grid-template-columns: 1fr 550px;
+  grid-template-columns: 1fr 500px;
 }
 #search-bar {
     width: 90%;
     height: 35px;
-    /* margin-right: ; */
     border-radius: 50px;
+}
+.welcome-container {
+    margin-top: 40px;
+    display: flex;
+}
+.greeting {
+    font-size: 0.8rem;
+}
+.full-user-name {
+    font-size: 1.35rem;
 }
 .side-menu {
   grid-area: side-menu;
