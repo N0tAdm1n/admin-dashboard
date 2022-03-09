@@ -1,57 +1,69 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  font-size: 20px;
 }
 .container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
-    grid-template-areas: "side-menu header"
-                         "side-menu main";
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 5fr;
+  grid-template-areas:
+    "side-menu header"
+    "side-menu main";
 }
 .header {
-    grid-area: header;
-    background-color: blue;
+  grid-area: header;
+  background-color: blue;
 }
 .side-menu {
-    grid-area: side-menu;
-    background-color: red;
+  grid-area: side-menu;
+  background-color: red;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.side-menu li {
+    padding: 12px 30px;
+    font-size: 1.35rem;
 }
 .main {
-    grid-area: main;
-    background-color: green;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 5fr 2fr;
-    gap: 30px;
+  grid-area: main;
+  background-color: green;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  gap: 30px;
 }
 
-.projects-container{
-    background-color: orange;
-    /* padding: 10px; */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
-    gap: 30px;
+.projects-container {
+  background-color: orange;
+  /* padding: 10px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
 }
 
-.project-tiles{
-    background-color: white;
-    /* width: 200px; */
-    height: 220px;
+.project-tiles {
+  background-color: white;
+  /* width: 200px; */
+  height: 220px;
 }
 
 .announcement-trending-container {
-    background-color: skyblue;
+  background-color: skyblue;
 
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2,1fr);
-    gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
 }
 
 .announcement,
 .trending {
-    background-color: white;
+  background-color: white;
 }
