@@ -23,7 +23,10 @@
   grid-template-columns: 1fr 550px;
 }
 #search-bar {
-    width: 100%;
+    width: 90%;
+    height: 35px;
+    /* margin-right: ; */
+    border-radius: 50px;
 }
 .side-menu {
   grid-area: side-menu;
