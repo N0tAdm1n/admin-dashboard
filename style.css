@@ -74,7 +74,9 @@
   grid-template-columns: 5fr 2fr;
   gap: 30px;
 }
-
+.heading {
+  font-size: 1.2rem;
+}
 .projects-container {
   background-color: orange;
   /* padding: 10px; */
