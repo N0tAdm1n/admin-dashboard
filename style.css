@@ -116,3 +116,16 @@
 .trending {
   background-color: white;
 }
+.announcement-content {
+  height: 90%;
+}
+.announcement-heading {
+  font-size: 0.89rem;
+}
+.announcement-description {
+  font-size: 0.8rem;
+}
+hr {
+  width: 90%;
+  margin: 30px auto;
+}
