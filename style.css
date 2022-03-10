@@ -87,8 +87,9 @@
 
 .project-tiles {
   background-color: white;
-  /* width: 200px; */
   height: 220px;
+  border-radius: 15px;
+  border-left: solid blue 11px;
 }
 
 .announcement-trending-container {
