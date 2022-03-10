@@ -91,7 +91,18 @@
   border-radius: 15px;
   border-left: solid blue 11px;
 }
-
+.project-heading {
+  font-size: 1rem;
+}
+.project-description {
+  font-size: 0.9rem;
+}
+.project-buttons {
+  margin-top: 60px;
+  margin-left: 350px;
+  display: flex;
+  justify-content: space-around;
+}
 .announcement-trending-container {
   background-color: skyblue;
 
