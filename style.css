@@ -5,10 +5,11 @@
 }
 :root {
   font-size: 20px;
-  --black: #222831;
-  --grey: #393E46;
+  --grey: #222831;
+  --black: #393E46;
   --teal: #00ADB5;
   --white: #EEEEEE;
+  color: var(--white);
 }
 .container {
   height: 100vh;
@@ -21,7 +22,7 @@
 }
 .header {
   grid-area: header;
-  background-color: blue;
+  background-color: var(--black);
   padding: 20px 50px;
 
   display: grid;
@@ -29,8 +30,11 @@
 }
 #search-bar {
     width: 90%;
-    height: 35px;
+    height: 40px;
     border-radius: 50px;
+    font-size: 1.1rem;
+    padding: 0 10px;
+    border: none;
 }
 .welcome-container {
     margin-top: 40px;
@@ -57,10 +61,13 @@
     width: 100px;
     border-radius: 50px;
     font-size: 0.8rem;
+    background-color: var(--teal);
+    border: none;
+    color: var(--white);
 }
 .side-menu {
   grid-area: side-menu;
-  background-color: red;
+  background-color: var(--grey);
   
   display: flex;
   flex-direction: column;
@@ -72,7 +79,7 @@
 }
 .main {
   grid-area: main;
-  background-color: green;
+  background-color: var(--white);
   padding: 10px 50px 10px 20px;
   display: grid;
   grid-template-columns: 5fr 2fr;
@@ -81,9 +88,10 @@
 .heading {
   font-size: 1.2rem;
   margin-bottom: 10px;
+  color: var(--grey);
 }
 .projects-container {
-  background-color: orange;
+  /* background-color: orange; */
   /* padding: 10px; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -91,10 +99,10 @@
 }
 
 .project-tiles {
-  background-color: white;
+  background-color: var(--black);
   height: 220px;
   border-radius: 15px;
-  border-left: solid blue 11px;
+  border-left: solid var(--teal) 11px;
   padding: 10px 30px 10px 15px;
 }
 .project-heading {
@@ -113,7 +121,7 @@
   gap: 20px;
 }
 .announcement-trending-container {
-  background-color: skyblue;
+  /* background-color: skyblue; */
 
   display: grid;
   grid-template-columns: 1fr;
@@ -123,11 +131,13 @@
 
 .announcement,
 .trending {
-  background-color: white;
+  /* background-color: var(--black); */
 }
 .announcement-content {
   height: fit-content;
   padding: 30px 20px;
+  background-color: var(--black);
+  border-radius: 20px;
 }
 .announcement-heading {
   font-size: 0.89rem;
@@ -146,6 +156,8 @@ hr {
   gap: 10px;
   height: fit-content;
   padding: 30px 20px;
+  background-color: var(--black);
+  border-radius: 20px;
 }
 .trending-topic {
   display: flex;
