@@ -5,6 +5,10 @@
 }
 :root {
   font-size: 20px;
+  --black: #222831;
+  --grey: #393E46;
+  --teal: #00ADB5;
+  --white: #EEEEEE;
 }
 .container {
   height: 100vh;
