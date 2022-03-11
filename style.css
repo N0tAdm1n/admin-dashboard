@@ -77,6 +77,10 @@
     padding: 12px 30px;
     font-size: 1.35rem;
 }
+.list-item {
+  display: flex;
+  gap: 40px;
+}
 .material-icons.menu-icon {
   font-size: 1.5rem;
 }
