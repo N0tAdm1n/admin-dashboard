@@ -77,6 +77,9 @@
     padding: 12px 30px;
     font-size: 1.35rem;
 }
+.material-icons.menu-icon {
+  font-size: 1.5rem;
+}
 .main {
   grid-area: main;
   background-color: var(--white);
@@ -114,11 +117,17 @@
 }
 .project-buttons {
   margin-top: 30px;
-  /* margin-left: 350px; */
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   gap: 20px;
+}
+.project-buttons>button {
+  background-color: transparent;
+  border: none;
+}
+.project-buttons>button>.material-icons {
+  color: var(--white);
 }
 .announcement-trending-container {
   /* background-color: skyblue; */
@@ -129,10 +138,6 @@
   gap: 30px;
 }
 
-.announcement,
-.trending {
-  /* background-color: var(--black); */
-}
 .announcement-content {
   height: fit-content;
   padding: 30px 20px;
