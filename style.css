@@ -28,6 +28,13 @@
   display: grid;
   grid-template-columns: 1fr 500px;
 }
+.search {
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  font-size: 2.4rem !important;
+}
 #search-bar {
     width: 90%;
     height: 40px;
@@ -35,6 +42,7 @@
     font-size: 1.1rem;
     padding: 0 10px;
     border: none;
+    background-color: var(--white);
 }
 .welcome-container {
     margin-top: 40px;
@@ -50,6 +58,12 @@
     display: flex;
     gap: 10px;
     font-size: 1.1rem;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+.material-icons.bell-icon{
+  font-size: 1.6rem;
 }
 .button-container {
     margin-top: 55px;
