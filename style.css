@@ -47,6 +47,8 @@
 .welcome-container {
     margin-top: 40px;
     display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .greeting {
     font-size: 0.8rem;
@@ -119,14 +121,12 @@
 }
 .heading {
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 540;
   margin-bottom: 10px;
   margin-left: 10px;
-  color: var(--grey);
+  color: var(--black);
 }
 .projects-container {
-  /* background-color: orange; */
-  /* padding: 10px; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 30px;
@@ -145,6 +145,8 @@
 }
 .project-description {
   font-size: 0.9rem;
+  font-family: 'Alata', sans-serif;
+  line-height: 1rem;
 }
 .project-buttons {
   margin-top: 30px;
@@ -161,8 +163,6 @@
   color: var(--white);
 }
 .announcement-trending-container {
-  /* background-color: skyblue; */
-
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
@@ -179,7 +179,9 @@
   font-size: 0.89rem;
 }
 .announcement-description {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  font-family: 'Alata', sans-serif;
+  line-height: 0.8rem;
 }
 hr {
   width: 90%;
@@ -192,21 +194,23 @@ hr {
   gap: 5px;
   height: fit-content;
   margin: 5px 0;
-  /* background-color: var(--black); */
 }
 .trending-topic {
   display: flex;
+  align-items: center;
   background-color: var(--black);
   border-radius: 10px;
   padding: 12px;
+  gap: 5px;
 }
 .user-handle {
   font-size: 0.85rem;
   font-weight: 560;
 }
 .trending-topic p{
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   font-weight: 350;
+  font-family: 'Alata', sans-serif;
 }
 .user-avatar {
   width: 50px;
