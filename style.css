@@ -68,13 +68,23 @@
 .side-menu {
   grid-area: side-menu;
   background-color: var(--grey);
+  padding: 10px;
   
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+.dashboard{
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dashboard>.material-icons {
+  font-size: 4rem;
+}
 .side-menu li {
-    padding: 12px 30px;
+    padding: 12px 20px;
     font-size: 1.35rem;
 }
 .list-item {
