@@ -68,13 +68,14 @@
 .button-container {
     margin-top: 55px;
     display: flex;
-    gap: 30px;
+    gap: 25px;
 }
 .button-container>button {
     height: 40px;
     width: 100px;
     border-radius: 50px;
     font-size: 0.8rem;
+    font-weight: 550;
     background-color: var(--teal);
     border: none;
     color: var(--white);
@@ -117,8 +118,10 @@
   gap: 30px;
 }
 .heading {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
   margin-bottom: 10px;
+  margin-left: 10px;
   color: var(--grey);
 }
 .projects-container {
@@ -186,14 +189,16 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 10px;
+  gap: 5px;
   height: fit-content;
-  padding: 30px 20px;
-  background-color: var(--black);
-  border-radius: 20px;
+  margin: 5px 0;
+  /* background-color: var(--black); */
 }
 .trending-topic {
   display: flex;
+  background-color: var(--black);
+  border-radius: 10px;
+  padding: 12px;
 }
 .user-handle {
   font-size: 0.85rem;
